@@ -1,0 +1,64 @@
+
+@use 'reset';
+@use 'font';
+@use 'color';
+
+
+body{
+    font-size: 15x;
+    font-family: font.$lexend-deca; 
+    min-height: 100vh;
+    background: color.$very-light-gray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.card__icon{
+    max-width: 100%;
+    width: 50px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card{
+    padding: 3rem 2rem;
+    &__sedands{
+        background:color.$bright-orange;
+        color: color.$transparent-white; 
+    }
+    &__title {
+        font-family:font.$title;
+    }
+
+}
+@media(min-width:300px){
+    .card__container{
+        min-width: 500px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;     
+    }
+    .card{
+        display: flex;
+        width: 300px;
+        height:100%;
+        flex-direction:column;
+
+
+    }
+
+    
+
+
+}

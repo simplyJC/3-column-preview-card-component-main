@@ -36,12 +36,71 @@ body {
 .card {
   padding: 3rem 2rem;
 }
+.card__container {
+  padding: 1rem;
+}
 .card__sedands {
   background: #e38826;
-  color: rgba(255, 255, 255, 0.75);
+}
+.card__suvs {
+  background-color: #006970;
+}
+.card__luxury {
+  background-color: #004241;
 }
 .card__title {
   font-family: "Big Shoulders Display", sans-serif;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+.card__content {
+  padding: 0.5rem 0 3rem 0;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5rem;
+}
+.card__button {
+  width: 60%;
+  margin: 1rem 1rem 1rem 0;
+  text-decoration: none;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+.card__button-sedans {
+  color: #e38826;
+  border: 3px solid #e38826;
+}
+.card__button-sedans:hover {
+  background-color: #e38826;
+  color: white;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+}
+.card__button-suvs {
+  color: #e38826;
+  border: 3px solid #006970;
+}
+.card__button-suvs:hover {
+  background-color: #006970;
+  color: white;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+}
+.card__button-suvs {
+  color: #e38826;
+  border: 3px solid #006970;
+}
+.card__button-suvs:hover {
+  background-color: #006970;
+  color: white;
+  border: 3px solid rgba(255, 255, 255, 0.75);
+}
+.card__button-luxury {
+  color: #e38826;
+  border: 3px solid #004241;
+}
+.card__button-luxury:hover {
+  background-color: #004241;
+  color: white;
+  border: 3px solid rgba(255, 255, 255, 0.75);
 }
 
 @media (min-width: 300px) {

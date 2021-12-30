@@ -41,12 +41,14 @@ body {
 }
 .card__sedands {
   background: #e38826;
+  border-radius: 1rem 0 0 1rem;
 }
 .card__suvs {
   background-color: #006970;
 }
 .card__luxury {
   background-color: #004241;
+  border-radius: 0 1rem 1rem 0;
 }
 .card__title {
   font-family: "Big Shoulders Display", sans-serif;
@@ -76,7 +78,7 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.75);
 }
 .card__button-suvs {
-  color: #e38826;
+  color: #006970;
   border: 3px solid #006970;
 }
 .card__button-suvs:hover {
@@ -85,7 +87,7 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.75);
 }
 .card__button-suvs {
-  color: #e38826;
+  color: #006970;
   border: 3px solid #006970;
 }
 .card__button-suvs:hover {
@@ -94,7 +96,7 @@ body {
   border: 3px solid rgba(255, 255, 255, 0.75);
 }
 .card__button-luxury {
-  color: #e38826;
+  color: #004241;
   border: 3px solid #004241;
 }
 .card__button-luxury:hover {
@@ -118,5 +120,31 @@ body {
     width: 300px;
     height: 100%;
     flex-direction: column;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 590px) {
+  .card__sedands {
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .card__suvs {
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  .card__luxury {
+    border-radius: 1rem;
+  }
+}
+@media only screen and (max-width: 590px) and (min-width: 50px) {
+  .card__sedands {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .card__suvs {
+    border-radius: 0;
+  }
+
+  .card__luxury {
+    border-radius: 0 0 1rem 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

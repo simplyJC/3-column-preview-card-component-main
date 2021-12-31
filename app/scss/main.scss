@@ -34,12 +34,14 @@ body{
 
     
     &__container{
-        padding:1rem;
+        margin: 1rem;
+        overflow: hidden;
+        border-radius: 1rem;
 
     }
     &__sedands{
         background:color.$bright-orange;
-        border-radius:  1rem  0 0 1rem  ;
+       // border-radius:  1rem  0 0 1rem  ;
         
         
     }
@@ -48,7 +50,7 @@ body{
     }
     &__luxury{
         background-color: color.$very-dark-cyan;
-        border-radius:  0 1rem  1rem 0 ;
+       // border-radius:  0 1rem  1rem 0 ;
     }
     &__title {
         font-family:font.$title;
@@ -131,12 +133,10 @@ body{
 
 
 }
-@media only screen and (max-width: 900px) and (min-width: 590px) 
+@media only screen and (max-width: 930px) and (min-width: 590px) 
 {
     .card__sedands{
         border-radius:  1rem 0 0 1rem;
-
-
     }
     .card__suvs{
         border-radius:  0 1rem 1rem 0;
@@ -146,7 +146,7 @@ body{
     }
 }
     
-@media only screen and (max-width: 590px) and (min-width: 50px) {
+@media only screen and (max-width: 640px) and (min-width: 50px) {
     .card__sedands{
         border-radius:  1rem 1rem 0 0;
     }

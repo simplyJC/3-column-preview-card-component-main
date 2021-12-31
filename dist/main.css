@@ -37,18 +37,18 @@ body {
   padding: 3rem 2rem;
 }
 .card__container {
-  padding: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
 }
 .card__sedands {
   background: #e38826;
-  border-radius: 1rem 0 0 1rem;
 }
 .card__suvs {
   background-color: #006970;
 }
 .card__luxury {
   background-color: #004241;
-  border-radius: 0 1rem 1rem 0;
 }
 .card__title {
   font-family: "Big Shoulders Display", sans-serif;
@@ -122,7 +122,7 @@ body {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 900px) and (min-width: 590px) {
+@media only screen and (max-width: 930px) and (min-width: 590px) {
   .card__sedands {
     border-radius: 1rem 0 0 1rem;
   }
@@ -135,7 +135,7 @@ body {
     border-radius: 1rem;
   }
 }
-@media only screen and (max-width: 590px) and (min-width: 50px) {
+@media only screen and (max-width: 640px) and (min-width: 50px) {
   .card__sedands {
     border-radius: 1rem 1rem 0 0;
   }
